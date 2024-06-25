@@ -27,7 +27,7 @@
         top: calc(50% - 600px/2);
         
         background: rgba(88, 130, 193, 0.4);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(2.5px);
         border-radius: 40px;
         display:flex;
         justify-content: center;
@@ -186,16 +186,16 @@ input[type="password"] {
     background-image : url("images/design1.avif");
     background-size: cover;
     position: absolute;
-    margin-left:50px ;
-    margin-top: 220px;
+    margin-left:600px ;
+    margin-top: 100px;
 }
 
 #design2{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background-image : url("images/design2.avif");
     background-size: cover;
     position: absolute;
-    margin-left:1040px ;
-    margin-top: 110px;
+    margin-left: 86.5vw ;
+    margin-top: 40vh;
 }
