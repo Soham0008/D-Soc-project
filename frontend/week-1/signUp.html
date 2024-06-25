@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signUp.css">
 </head>
 <body>
     <!-- navbar -->
@@ -22,11 +23,11 @@
       <!-- container for glassy effect -->
     <div id="container">
         <!-- content area -->
-        <div id="login">
-            <!-- logo -->
+        <div id="signUp">
             <div id="logo"> </div>
-            <h1>Login</h1>
-            <!-- login -->
+            <h1>Sign Up</h1>
+
+            <!-- Sign Up -->
             <form>
                 <div class="input">
                         <label for="email">Email</label>
@@ -35,30 +36,17 @@
                 <div class="input">
                 <label for="psw">Password</label>
                 <input type="password" placeholder="Password" name="psw" required>
-                <a class="forgot" href="#"> Forgot Password? </a>
                 </div>
                 <div class="input">
-                    <label for="admin">Are you an admin?</label>
-                    <input type="checkbox" id="admin" name="admin"><br>
-                    </div>
-                <input id="button" type="submit" value="Sign in">
+                    <label for="cnfpsw">Password</label>
+                    <input type="password" placeholder="Confirm Password" name="cnfpsw" required>
+                </div>
+                <div class="input">
+                <label for="admin">Are you an admin?</label>
+                <input type="checkbox" id="admin" name="admin"><br>
+                </div>
+                <input id="button" type="submit" value="Sign Up">
             </form>
-            <div> <p id="or">or continue with</p></div>
-            <div id="alternatives">
-                <div class="accounts">
-                    <a href="#">  <div class="logos" id="img1"></div> </a> 
-                </div>
-                <div class="accounts">
-                    <a href="#">  <div class="logos" id="img2"></div> </a>
-                </div>
-                <div class="accounts">
-                    <a href="#">  <div class="logos" id="img3"></div> </a>
-                </div>
-            </div>
-            <div>
-                <p id="else">Don't have an account yet?</p>
-                <a class="signup" href="signUp.html"> Register for free</a>
-            </div>
         </div>
     </div>
     </main>
