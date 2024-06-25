@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="signUp.css">
 </head>
 <body>
@@ -35,11 +36,13 @@
                 </div>
                 <div class="input">
                 <label for="psw">Password</label>
-                <input type="password" placeholder="Password" name="psw" required>
+                <input type="password" class="password-input"  placeholder="Password" name="psw" required>
+                <i class="far fa-eye toggle-password" id="pass1"></i>
                 </div>
                 <div class="input">
                     <label for="cnfpsw">Password</label>
-                    <input type="password" placeholder="Confirm Password" name="cnfpsw" required>
+                    <input type="password" class="password-input" placeholder="Confirm Password" name="cnfpsw" required>
+                    <i class="far fa-eye toggle-password" id="pass2"></i>
                 </div>
                 <div class="input">
                 <label for="admin">Are you an admin?</label>
@@ -50,6 +53,6 @@
         </div>
     </div>
     </main>
-
+    <script src="signUp.js"></script>
 </body>
 </html>

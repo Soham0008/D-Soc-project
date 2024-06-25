@@ -199,3 +199,10 @@ input[type="password"] {
     margin-left: 86.5vw ;
     margin-top: 40vh;
 }
+
+.toggle-password {
+    position: fixed;
+    top: 56%;
+    right: 30px;
+    cursor: pointer;
+}

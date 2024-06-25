@@ -127,3 +127,17 @@ position: absolute;
 margin-left: 86.5vw ;
 margin-top: 40vh;
 }
+
+#pass1 {
+    position: fixed;
+    top: 56%;
+    right: 30px;
+    cursor: pointer;
+}
+
+#pass2 {
+    position: fixed;
+    top: 68.5%;
+    right: 30px;
+    cursor: pointer;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -34,8 +35,9 @@
                 </div>
                 <div class="input">
                 <label for="psw">Password</label>
-                <input type="password" placeholder="Password" name="psw" required>
+                <input type="password" class="password-input" placeholder="Password" name="psw" required>
                 <a class="forgot" href="#"> Forgot Password? </a>
+                <i class="far fa-eye toggle-password"></i>
                 </div>
                 <div class="input">
                     <label for="admin">Are you an admin?</label>
@@ -62,6 +64,6 @@
         </div>
     </div>
     </main>
-
+    <script src="login.js"></script>
 </body>
 </html>
